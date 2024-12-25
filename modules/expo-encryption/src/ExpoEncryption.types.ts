@@ -4,7 +4,7 @@ export type OnLoadEventPayload = {
   url: string;
 };
 
-export type ExpoSettingsTestModuleEvents = {
+export type ExpoEncryptionModuleEvents = {
   onChange: (params: ChangeEventPayload) => void;
 };
 
@@ -12,7 +12,7 @@ export type ChangeEventPayload = {
   value: string;
 };
 
-export type ExpoSettingsTestViewProps = {
+export type ExpoEncryptionViewProps = {
   url: string;
   onLoad: (event: { nativeEvent: OnLoadEventPayload }) => void;
   style?: StyleProp<ViewStyle>;

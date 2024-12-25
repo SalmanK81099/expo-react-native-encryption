@@ -6,12 +6,12 @@
   ],
   "apple": {
     "modules": [
-      "ExpoSettingsTestModule"
+      "ExpoEncryptionModule"
     ]
   },
   "android": {
     "modules": [
-      "expo.modules.settingstest.ExpoSettingsTestModule"
+      "expo.modules.encryption.ExpoEncryptionModule"
     ]
   }
 }

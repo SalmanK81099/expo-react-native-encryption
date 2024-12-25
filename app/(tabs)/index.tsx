@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Settings from '@/modules/expo-settings-test';
+import Settings from '@/modules/expo-encryption';
 import { Text, View } from 'react-native';
 
 async function getHmacHash() {
