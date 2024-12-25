@@ -14,7 +14,7 @@ This is a custom encryption module designed for React Native Expo projects. It p
 1. Install dependencies
 
    ```bash
-   npm install
+   bun install
    ```
 
 2. Start the app
@@ -47,4 +47,7 @@ The `module` folder contains the HMAC-SHA256 encryption logic.
 
 
 Use your preferred device (Android or iOS) to run the app using Expo prebuild or a development client.
+
+
+More encryption techniques to be added
 
