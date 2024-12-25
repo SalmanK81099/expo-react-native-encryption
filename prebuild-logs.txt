@@ -1,0 +1,127 @@
+$ expo run:android
+› Building app...
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-asset[0m (11.0.1)
+  - [32mexpo-blur[0m (14.0.1)
+  - [32mexpo-constants[0m (17.0.3)
+  - [32mexpo-file-system[0m (18.0.5)
+  - [32mexpo-font[0m (13.0.1)
+  - [32mexpo-haptics[0m (14.0.0)
+  - [32mexpo-keep-awake[0m (14.0.1)
+  - [32mexpo-linking[0m (7.0.3)
+  - [32mexpo-modules-core[0m (2.1.1)
+  - [32mexpo-settings[0m (UNVERSIONED)
+  - [32mexpo-settings-test[0m (UNVERSIONED)
+  - [32mexpo-splash-screen[0m (0.29.18)
+  - [32mexpo-system-ui[0m (4.0.6)
+
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.6.0
+Gradle: 8.10.2
+
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :expo:generateExpoModulesPackageListTask UP-TO-DATE
+> Task :expo:preBuild UP-TO-DATE
+> Task :expo:preDebugBuild UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preDebugBuild UP-TO-DATE
+> Task :expo-asset:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-blur:preBuild UP-TO-DATE
+> Task :expo-blur:preDebugBuild UP-TO-DATE
+> Task :expo-blur:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:createExpoConfig UP-TO-DATE
+> Task :expo-constants:preBuild UP-TO-DATE
+> Task :expo-constants:preDebugBuild UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preDebugBuild UP-TO-DATE
+> Task :expo-file-system:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preDebugBuild UP-TO-DATE
+> Task :expo-font:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-haptics:preBuild UP-TO-DATE
+> Task :expo-haptics:preDebugBuild UP-TO-DATE
+> Task :expo-haptics:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preDebugBuild UP-TO-DATE
+> Task :expo-keep-awake:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-linking:preBuild UP-TO-DATE
+> Task :expo-linking:preDebugBuild UP-TO-DATE
+> Task :expo-linking:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-settings:preBuild UP-TO-DATE
+> Task :expo-settings:preDebugBuild UP-TO-DATE
+> Task :expo-settings:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-settings-test:preBuild UP-TO-DATE
+> Task :expo-settings-test:preDebugBuild UP-TO-DATE
+> Task :expo-settings-test:writeDebugAarMetadata FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':expo-settings-test:writeDebugAarMetadata'.
+> Failed to create parent directory '/Users/salmankhan/Desktop/anemoia/exposdk52/modules/expo-settings-test/android/build' when creating directory '/Users/salmankhan/Desktop/anemoia/exposdk52/modules/expo-settings-test/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata'
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 6s
+31 actionable tasks: 5 executed, 26 up-to-date
+Error: /Users/salmankhan/Desktop/anemoia/exposdk52/android/gradlew app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=arm64-v8a exited with non-zero code: 1
+Error: /Users/salmankhan/Desktop/anemoia/exposdk52/android/gradlew app:assembleDebug -x lint -x test --configure-on-demand --build-cache -PreactNativeDevServerPort=8081 -PreactNativeArchitectures=arm64-v8a exited with non-zero code: 1
+    at ChildProcess.completionListener (/Users/salmankhan/Desktop/anemoia/exposdk52/node_modules/@expo/spawn-async/src/spawnAsync.ts:67:13)
+    at Object.onceWrapper (node:events:632:26)
+    at ChildProcess.emit (node:events:517:28)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:303:5)
+    ...
+    at spawnAsync (/Users/salmankhan/Desktop/anemoia/exposdk52/node_modules/@expo/spawn-async/src/spawnAsync.ts:28:21)
+    at spawnGradleAsync (/Users/salmankhan/Desktop/anemoia/exposdk52/node_modules/@expo/cli/src/start/platforms/android/gradle.ts:134:28)
+    at assembleAsync (/Users/salmankhan/Desktop/anemoia/exposdk52/node_modules/@expo/cli/src/start/platforms/android/gradle.ts:83:16)
+    at runAndroidAsync (/Users/salmankhan/Desktop/anemoia/exposdk52/node_modules/@expo/cli/src/run/android/runAndroidAsync.ts:48:24)
+error: script "android" exited with code 1

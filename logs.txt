@@ -1,0 +1,897 @@
+- Creating native directory (./android)
+✔ Created native directory
+- Updating package.json
+✔ Updated package.json | no changes
+- Running prebuild
+✔ Finished prebuild
+› Building app...
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-asset[0m (11.0.1)
+  - [32mexpo-blur[0m (14.0.1)
+  - [32mexpo-constants[0m (17.0.3)
+  - [32mexpo-file-system[0m (18.0.5)
+  - [32mexpo-font[0m (13.0.1)
+  - [32mexpo-haptics[0m (14.0.0)
+  - [32mexpo-keep-awake[0m (14.0.1)
+  - [32mexpo-linking[0m (7.0.3)
+  - [32mexpo-modules-core[0m (2.1.1)
+  - [32mexpo-settings[0m (UNVERSIONED)
+  - [32mexpo-splash-screen[0m (0.29.18)
+  - [32mexpo-system-ui[0m (4.0.6)
+
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.6.0
+Gradle: 8.10.2
+
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig FROM-CACHE
+> Task :expo:generateExpoModulesPackageListTask
+> Task :expo:preBuild
+> Task :expo:preDebugBuild
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preDebugBuild UP-TO-DATE
+> Task :expo:writeDebugAarMetadata
+> Task :expo-asset:writeDebugAarMetadata
+> Task :expo-blur:preBuild UP-TO-DATE
+> Task :expo-blur:preDebugBuild UP-TO-DATE
+> Task :expo-blur:writeDebugAarMetadata
+> Task :expo-constants:createExpoConfig
+> Task :expo-constants:preBuild
+> Task :expo-constants:preDebugBuild
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preDebugBuild UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preDebugBuild UP-TO-DATE
+> Task :expo-file-system:writeDebugAarMetadata
+> Task :expo-haptics:preBuild UP-TO-DATE
+> Task :expo-font:writeDebugAarMetadata
+> Task :expo-haptics:preDebugBuild UP-TO-DATE
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preDebugBuild UP-TO-DATE
+> Task :expo-haptics:writeDebugAarMetadata
+> Task :expo-linking:preBuild UP-TO-DATE
+> Task :expo-keep-awake:writeDebugAarMetadata
+> Task :expo-linking:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-linking:writeDebugAarMetadata
+> Task :expo-settings:preBuild UP-TO-DATE
+> Task :expo-settings:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-splash-screen:preBuild UP-TO-DATE
+> Task :expo-splash-screen:preDebugBuild UP-TO-DATE
+> Task :expo-settings:writeDebugAarMetadata
+> Task :expo-splash-screen:writeDebugAarMetadata
+> Task :expo-system-ui:preBuild UP-TO-DATE
+> Task :expo-system-ui:preDebugBuild UP-TO-DATE
+> Task :expo-system-ui:writeDebugAarMetadata
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema
+> Task :react-native-gesture-handler:preBuild
+> Task :react-native-gesture-handler:preDebugBuild
+> Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-gesture-handler:writeDebugAarMetadata
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preDebugBuild
+> Task :react-native-reanimated:writeDebugAarMetadata
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+> Task :react-native-safe-area-context:preBuild
+> Task :react-native-safe-area-context:preDebugBuild
+> Task :react-native-safe-area-context:writeDebugAarMetadata
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript
+> Task :react-native-screens:generateCodegenArtifactsFromSchema
+> Task :react-native-screens:preBuild
+> Task :react-native-screens:preDebugBuild
+> Task :react-native-screens:writeDebugAarMetadata
+> Task :react-native-webview:generateCodegenSchemaFromJavaScript
+> Task :react-native-webview:generateCodegenArtifactsFromSchema
+> Task :react-native-webview:preBuild
+> Task :react-native-webview:preDebugBuild
+> Task :react-native-webview:writeDebugAarMetadata
+> Task :app:generateDebugResValues FROM-CACHE
+> Task :expo:generateDebugResValues FROM-CACHE
+> Task :expo:generateDebugResources FROM-CACHE
+> Task :expo:packageDebugResources FROM-CACHE
+> Task :expo-asset:generateDebugResValues FROM-CACHE
+> Task :expo-asset:generateDebugResources FROM-CACHE
+> Task :app:checkDebugAarMetadata
+> Task :expo-asset:packageDebugResources FROM-CACHE
+> Task :expo-blur:generateDebugResValues FROM-CACHE
+> Task :expo-blur:generateDebugResources FROM-CACHE
+> Task :expo-blur:packageDebugResources FROM-CACHE
+> Task :expo-constants:generateDebugResValues FROM-CACHE
+> Task :expo-constants:generateDebugResources FROM-CACHE
+> Task :expo-constants:packageDebugResources FROM-CACHE
+> Task :expo-file-system:generateDebugResValues FROM-CACHE
+> Task :expo-file-system:generateDebugResources FROM-CACHE
+> Task :expo-file-system:packageDebugResources FROM-CACHE
+> Task :expo-font:generateDebugResValues FROM-CACHE
+> Task :expo-font:generateDebugResources FROM-CACHE
+> Task :expo-font:packageDebugResources FROM-CACHE
+> Task :expo-haptics:generateDebugResValues FROM-CACHE
+> Task :expo-haptics:generateDebugResources FROM-CACHE
+> Task :expo-haptics:packageDebugResources FROM-CACHE
+> Task :expo-keep-awake:generateDebugResValues FROM-CACHE
+> Task :expo-keep-awake:generateDebugResources FROM-CACHE
+> Task :expo-keep-awake:packageDebugResources FROM-CACHE
+> Task :expo-linking:generateDebugResValues FROM-CACHE
+> Task :expo-linking:generateDebugResources FROM-CACHE
+> Task :expo-linking:packageDebugResources FROM-CACHE
+> Task :expo-modules-core:generateDebugResValues FROM-CACHE
+> Task :expo-modules-core:generateDebugResources FROM-CACHE
+> Task :expo-modules-core:packageDebugResources FROM-CACHE
+> Task :expo-settings:generateDebugResValues FROM-CACHE
+> Task :expo-settings:generateDebugResources FROM-CACHE
+> Task :expo-settings:packageDebugResources FROM-CACHE
+> Task :expo-splash-screen:generateDebugResValues FROM-CACHE
+> Task :expo-splash-screen:generateDebugResources FROM-CACHE
+> Task :expo-splash-screen:packageDebugResources FROM-CACHE
+> Task :expo-system-ui:generateDebugResValues FROM-CACHE
+> Task :expo-system-ui:generateDebugResources FROM-CACHE
+> Task :expo-system-ui:packageDebugResources FROM-CACHE
+> Task :react-native-gesture-handler:generateDebugResValues FROM-CACHE
+> Task :react-native-gesture-handler:generateDebugResources FROM-CACHE
+> Task :react-native-gesture-handler:packageDebugResources FROM-CACHE
+> Task :react-native-reanimated:generateDebugResValues FROM-CACHE
+> Task :react-native-reanimated:generateDebugResources FROM-CACHE
+> Task :react-native-reanimated:packageDebugResources FROM-CACHE
+> Task :react-native-safe-area-context:generateDebugResValues FROM-CACHE
+> Task :react-native-safe-area-context:generateDebugResources FROM-CACHE
+> Task :react-native-safe-area-context:packageDebugResources FROM-CACHE
+> Task :react-native-screens:generateDebugResValues FROM-CACHE
+> Task :react-native-screens:generateDebugResources FROM-CACHE
+> Task :react-native-screens:packageDebugResources FROM-CACHE
+> Task :react-native-webview:generateDebugResValues FROM-CACHE
+> Task :react-native-webview:generateDebugResources FROM-CACHE
+> Task :react-native-webview:packageDebugResources FROM-CACHE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources FROM-CACHE
+> Task :app:mergeDebugResources FROM-CACHE
+> Task :app:packageDebugResources FROM-CACHE
+> Task :app:parseDebugLocalResources FROM-CACHE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug FROM-CACHE
+> Task :expo:extractDeepLinksDebug FROM-CACHE
+> Task :expo:processDebugManifest FROM-CACHE
+> Task :expo-asset:extractDeepLinksDebug FROM-CACHE
+> Task :expo-asset:processDebugManifest FROM-CACHE
+> Task :expo-blur:extractDeepLinksDebug FROM-CACHE
+> Task :expo-blur:processDebugManifest FROM-CACHE
+> Task :expo-constants:extractDeepLinksDebug FROM-CACHE
+> Task :expo-constants:processDebugManifest FROM-CACHE
+> Task :expo-file-system:extractDeepLinksDebug FROM-CACHE
+> Task :expo-file-system:processDebugManifest FROM-CACHE
+> Task :expo-font:extractDeepLinksDebug FROM-CACHE
+> Task :expo-font:processDebugManifest FROM-CACHE
+> Task :expo-haptics:extractDeepLinksDebug FROM-CACHE
+> Task :expo-haptics:processDebugManifest FROM-CACHE
+> Task :expo-keep-awake:extractDeepLinksDebug FROM-CACHE
+> Task :expo-keep-awake:processDebugManifest FROM-CACHE
+> Task :expo-linking:extractDeepLinksDebug FROM-CACHE
+> Task :expo-linking:processDebugManifest FROM-CACHE
+> Task :expo-modules-core:extractDeepLinksDebug FROM-CACHE
+> Task :expo-modules-core:processDebugManifest FROM-CACHE
+> Task :expo-settings:extractDeepLinksDebug FROM-CACHE
+> Task :expo-settings:processDebugManifest FROM-CACHE
+> Task :expo-splash-screen:extractDeepLinksDebug FROM-CACHE
+> Task :expo-splash-screen:processDebugManifest FROM-CACHE
+> Task :expo-system-ui:extractDeepLinksDebug FROM-CACHE
+> Task :expo-system-ui:processDebugManifest FROM-CACHE
+> Task :react-native-gesture-handler:extractDeepLinksDebug FROM-CACHE
+> Task :react-native-gesture-handler:processDebugManifest FROM-CACHE
+> Task :react-native-reanimated:extractDeepLinksDebug FROM-CACHE
+> Task :react-native-reanimated:processDebugManifest FROM-CACHE
+> Task :react-native-safe-area-context:extractDeepLinksDebug FROM-CACHE
+> Task :react-native-safe-area-context:processDebugManifest FROM-CACHE
+> Task :react-native-screens:extractDeepLinksDebug FROM-CACHE
+> Task :react-native-screens:processDebugManifest FROM-CACHE
+> Task :react-native-webview:extractDeepLinksDebug FROM-CACHE
+> Task :react-native-webview:processDebugManifest FROM-CACHE
+> Task :app:processDebugMainManifest FROM-CACHE
+> Task :app:processDebugManifest FROM-CACHE
+> Task :app:processDebugManifestForPackage FROM-CACHE
+> Task :expo:compileDebugLibraryResources FROM-CACHE
+> Task :expo:parseDebugLocalResources FROM-CACHE
+> Task :expo:generateDebugRFile FROM-CACHE
+> Task :expo-asset:compileDebugLibraryResources FROM-CACHE
+> Task :expo-asset:parseDebugLocalResources FROM-CACHE
+> Task :expo-asset:generateDebugRFile FROM-CACHE
+> Task :expo-blur:compileDebugLibraryResources FROM-CACHE
+> Task :expo-blur:parseDebugLocalResources FROM-CACHE
+> Task :expo-blur:generateDebugRFile FROM-CACHE
+> Task :expo-constants:compileDebugLibraryResources FROM-CACHE
+> Task :expo-constants:parseDebugLocalResources FROM-CACHE
+> Task :expo-constants:generateDebugRFile FROM-CACHE
+> Task :expo-file-system:compileDebugLibraryResources FROM-CACHE
+> Task :expo-file-system:parseDebugLocalResources FROM-CACHE
+> Task :expo-file-system:generateDebugRFile FROM-CACHE
+> Task :expo-font:compileDebugLibraryResources FROM-CACHE
+> Task :expo-font:parseDebugLocalResources FROM-CACHE
+> Task :expo-font:generateDebugRFile FROM-CACHE
+> Task :expo-haptics:compileDebugLibraryResources FROM-CACHE
+> Task :expo-haptics:parseDebugLocalResources FROM-CACHE
+> Task :expo-haptics:generateDebugRFile FROM-CACHE
+> Task :expo-keep-awake:compileDebugLibraryResources FROM-CACHE
+> Task :expo-keep-awake:parseDebugLocalResources FROM-CACHE
+> Task :expo-keep-awake:generateDebugRFile FROM-CACHE
+> Task :expo-linking:compileDebugLibraryResources FROM-CACHE
+> Task :expo-linking:parseDebugLocalResources FROM-CACHE
+> Task :expo-linking:generateDebugRFile FROM-CACHE
+> Task :expo-modules-core:compileDebugLibraryResources FROM-CACHE
+> Task :expo-modules-core:parseDebugLocalResources FROM-CACHE
+> Task :expo-modules-core:generateDebugRFile FROM-CACHE
+> Task :expo-settings:compileDebugLibraryResources FROM-CACHE
+> Task :expo-settings:parseDebugLocalResources FROM-CACHE
+> Task :expo-settings:generateDebugRFile FROM-CACHE
+> Task :expo-splash-screen:compileDebugLibraryResources FROM-CACHE
+> Task :expo-splash-screen:parseDebugLocalResources FROM-CACHE
+> Task :expo-splash-screen:generateDebugRFile FROM-CACHE
+> Task :expo-system-ui:compileDebugLibraryResources FROM-CACHE
+> Task :expo-system-ui:parseDebugLocalResources FROM-CACHE
+> Task :expo-system-ui:generateDebugRFile FROM-CACHE
+> Task :react-native-gesture-handler:compileDebugLibraryResources FROM-CACHE
+> Task :react-native-gesture-handler:parseDebugLocalResources FROM-CACHE
+> Task :react-native-gesture-handler:generateDebugRFile FROM-CACHE
+> Task :react-native-reanimated:compileDebugLibraryResources FROM-CACHE
+> Task :react-native-reanimated:parseDebugLocalResources FROM-CACHE
+> Task :react-native-reanimated:generateDebugRFile FROM-CACHE
+> Task :react-native-safe-area-context:compileDebugLibraryResources FROM-CACHE
+> Task :react-native-safe-area-context:parseDebugLocalResources FROM-CACHE
+> Task :react-native-safe-area-context:generateDebugRFile FROM-CACHE
+> Task :react-native-screens:compileDebugLibraryResources FROM-CACHE
+> Task :react-native-screens:parseDebugLocalResources FROM-CACHE
+> Task :react-native-screens:generateDebugRFile FROM-CACHE
+> Task :react-native-webview:compileDebugLibraryResources FROM-CACHE
+> Task :react-native-webview:parseDebugLocalResources FROM-CACHE
+> Task :react-native-webview:generateDebugRFile FROM-CACHE
+> Task :app:processDebugResources FROM-CACHE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors
+> Task :expo:generateDebugBuildConfig FROM-CACHE
+> Task :expo-asset:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-asset:generateDebugBuildConfig FROM-CACHE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-modules-core:generateDebugBuildConfig FROM-CACHE
+> Task :expo-modules-core:compileDebugKotlin FROM-CACHE
+> Task :expo-modules-core:javaPreCompileDebug FROM-CACHE
+> Task :expo-modules-core:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-asset:javaPreCompileDebug FROM-CACHE
+> Task :expo-blur:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-blur:generateDebugBuildConfig FROM-CACHE
+> Task :expo-blur:javaPreCompileDebug FROM-CACHE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-constants:generateDebugBuildConfig FROM-CACHE
+> Task :expo-constants:javaPreCompileDebug FROM-CACHE
+> Task :expo-file-system:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-file-system:generateDebugBuildConfig FROM-CACHE
+> Task :expo-file-system:javaPreCompileDebug FROM-CACHE
+> Task :expo-font:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:generateDebugBuildConfig FROM-CACHE
+> Task :expo-font:javaPreCompileDebug FROM-CACHE
+> Task :expo-haptics:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-haptics:generateDebugBuildConfig FROM-CACHE
+> Task :expo-haptics:javaPreCompileDebug FROM-CACHE
+> Task :expo-keep-awake:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-keep-awake:generateDebugBuildConfig FROM-CACHE
+> Task :expo-keep-awake:javaPreCompileDebug FROM-CACHE
+> Task :expo-linking:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-linking:generateDebugBuildConfig FROM-CACHE
+> Task :expo-linking:javaPreCompileDebug FROM-CACHE
+> Task :expo-settings:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-settings:generateDebugBuildConfig FROM-CACHE
+> Task :expo-settings:javaPreCompileDebug FROM-CACHE
+> Task :expo-splash-screen:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-splash-screen:generateDebugBuildConfig FROM-CACHE
+> Task :expo-splash-screen:javaPreCompileDebug FROM-CACHE
+> Task :expo-system-ui:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-system-ui:generateDebugBuildConfig FROM-CACHE
+> Task :expo-system-ui:javaPreCompileDebug FROM-CACHE
+> Task :expo:javaPreCompileDebug FROM-CACHE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-gesture-handler:generateDebugBuildConfig FROM-CACHE
+> Task :react-native-reanimated:generateDebugBuildConfig FROM-CACHE
+> Task :react-native-reanimated:javaPreCompileDebug FROM-CACHE
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :expo-modules-core:bundleLibCompileToJarDebug
+> Task :react-native-reanimated:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-asset:compileDebugKotlin FROM-CACHE
+> Task :expo-asset:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-asset:bundleLibCompileToJarDebug
+> Task :expo-blur:compileDebugKotlin FROM-CACHE
+> Task :expo-blur:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-blur:bundleLibCompileToJarDebug
+> Task :expo-constants:compileDebugKotlin FROM-CACHE
+> Task :expo-constants:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-constants:bundleLibCompileToJarDebug
+> Task :expo-file-system:compileDebugKotlin FROM-CACHE
+> Task :expo-file-system:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-file-system:bundleLibCompileToJarDebug
+> Task :expo-font:compileDebugKotlin FROM-CACHE
+> Task :expo-font:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-font:bundleLibCompileToJarDebug
+> Task :expo-haptics:compileDebugKotlin FROM-CACHE
+> Task :expo-haptics:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-haptics:bundleLibCompileToJarDebug
+> Task :expo-keep-awake:compileDebugKotlin FROM-CACHE
+> Task :expo-keep-awake:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-keep-awake:bundleLibCompileToJarDebug
+> Task :expo-linking:compileDebugKotlin FROM-CACHE
+> Task :expo-linking:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-linking:bundleLibCompileToJarDebug
+> Task :expo-splash-screen:compileDebugKotlin FROM-CACHE
+> Task :expo-splash-screen:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-splash-screen:bundleLibCompileToJarDebug
+> Task :expo-system-ui:compileDebugKotlin FROM-CACHE
+> Task :expo-system-ui:compileDebugJavaWithJavac FROM-CACHE
+> Task :expo-system-ui:bundleLibCompileToJarDebug
+> Task :react-native-gesture-handler:javaPreCompileDebug FROM-CACHE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-safe-area-context:generateDebugBuildConfig FROM-CACHE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug
+> Task :react-native-safe-area-context:compileDebugKotlin FROM-CACHE
+> Task :react-native-gesture-handler:compileDebugKotlin FROM-CACHE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac FROM-CACHE
+> Task :react-native-safe-area-context:javaPreCompileDebug FROM-CACHE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac FROM-CACHE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-screens:generateDebugBuildConfig FROM-CACHE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug
+
+> Task :expo-settings:compileDebugKotlin FAILED
+
+> Task :react-native-screens:compileDebugKotlin FROM-CACHE
+298 actionable tasks: 72 executed, 216 from cache, 10 up-to-date
+› Building app...
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-asset[0m (11.0.1)
+  - [32mexpo-blur[0m (14.0.1)
+  - [32mexpo-constants[0m (17.0.3)
+  - [32mexpo-file-system[0m (18.0.5)
+  - [32mexpo-font[0m (13.0.1)
+  - [32mexpo-haptics[0m (14.0.0)
+  - [32mexpo-keep-awake[0m (14.0.1)
+  - [32mexpo-linking[0m (7.0.3)
+  - [32mexpo-modules-core[0m (2.1.1)
+  - [32mexpo-settings[0m (UNVERSIONED)
+  - [32mexpo-splash-screen[0m (0.29.18)
+  - [32mexpo-system-ui[0m (4.0.6)
+
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.6.0
+Gradle: 8.10.2
+
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :expo:generateExpoModulesPackageListTask UP-TO-DATE
+> Task :expo:preBuild UP-TO-DATE
+> Task :expo:preDebugBuild UP-TO-DATE
+> Task :expo:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preDebugBuild UP-TO-DATE
+> Task :expo-asset:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-blur:preBuild UP-TO-DATE
+> Task :expo-blur:preDebugBuild UP-TO-DATE
+> Task :expo-blur:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-constants:createExpoConfig UP-TO-DATE
+> Task :expo-constants:preBuild UP-TO-DATE
+> Task :expo-constants:preDebugBuild UP-TO-DATE
+> Task :expo-constants:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preDebugBuild UP-TO-DATE
+> Task :expo-file-system:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preDebugBuild UP-TO-DATE
+> Task :expo-font:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-haptics:preBuild UP-TO-DATE
+> Task :expo-haptics:preDebugBuild UP-TO-DATE
+> Task :expo-haptics:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preDebugBuild UP-TO-DATE
+> Task :expo-keep-awake:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-linking:preBuild UP-TO-DATE
+> Task :expo-linking:preDebugBuild UP-TO-DATE
+> Task :expo-linking:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :expo-modules-core:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-settings:preBuild UP-TO-DATE
+> Task :expo-settings:preDebugBuild UP-TO-DATE
+> Task :expo-settings:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-splash-screen:preBuild UP-TO-DATE
+> Task :expo-splash-screen:preDebugBuild UP-TO-DATE
+> Task :expo-splash-screen:writeDebugAarMetadata UP-TO-DATE
+> Task :expo-system-ui:preBuild UP-TO-DATE
+> Task :expo-system-ui:preDebugBuild UP-TO-DATE
+> Task :expo-system-ui:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-webview:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-webview:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preDebugBuild UP-TO-DATE
+> Task :react-native-webview:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :expo:generateDebugResValues UP-TO-DATE
+> Task :expo:generateDebugResources UP-TO-DATE
+> Task :expo:packageDebugResources UP-TO-DATE
+> Task :expo-asset:generateDebugResValues UP-TO-DATE
+> Task :expo-asset:generateDebugResources UP-TO-DATE
+> Task :expo-asset:packageDebugResources UP-TO-DATE
+> Task :expo-blur:generateDebugResValues UP-TO-DATE
+> Task :expo-blur:generateDebugResources UP-TO-DATE
+> Task :expo-blur:packageDebugResources UP-TO-DATE
+> Task :expo-constants:generateDebugResValues UP-TO-DATE
+> Task :expo-constants:generateDebugResources UP-TO-DATE
+> Task :expo-constants:packageDebugResources UP-TO-DATE
+> Task :expo-file-system:generateDebugResValues UP-TO-DATE
+> Task :expo-file-system:generateDebugResources UP-TO-DATE
+> Task :expo-file-system:packageDebugResources UP-TO-DATE
+> Task :expo-font:generateDebugResValues UP-TO-DATE
+> Task :expo-font:generateDebugResources UP-TO-DATE
+> Task :expo-font:packageDebugResources UP-TO-DATE
+> Task :expo-haptics:generateDebugResValues UP-TO-DATE
+> Task :expo-haptics:generateDebugResources UP-TO-DATE
+> Task :expo-haptics:packageDebugResources UP-TO-DATE
+> Task :expo-keep-awake:generateDebugResValues UP-TO-DATE
+> Task :expo-keep-awake:generateDebugResources UP-TO-DATE
+> Task :expo-keep-awake:packageDebugResources UP-TO-DATE
+> Task :expo-linking:generateDebugResValues UP-TO-DATE
+> Task :expo-linking:generateDebugResources UP-TO-DATE
+> Task :expo-linking:packageDebugResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugResValues UP-TO-DATE
+> Task :expo-modules-core:generateDebugResources UP-TO-DATE
+> Task :expo-modules-core:packageDebugResources UP-TO-DATE
+> Task :expo-settings:generateDebugResValues UP-TO-DATE
+> Task :expo-settings:generateDebugResources UP-TO-DATE
+> Task :expo-settings:packageDebugResources UP-TO-DATE
+> Task :expo-splash-screen:generateDebugResValues UP-TO-DATE
+> Task :expo-splash-screen:generateDebugResources UP-TO-DATE
+> Task :expo-splash-screen:packageDebugResources UP-TO-DATE
+> Task :expo-system-ui:generateDebugResValues UP-TO-DATE
+> Task :expo-system-ui:generateDebugResources UP-TO-DATE
+> Task :expo-system-ui:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :react-native-webview:generateDebugResValues UP-TO-DATE
+> Task :react-native-webview:generateDebugResources UP-TO-DATE
+> Task :react-native-webview:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:extractDeepLinksDebug UP-TO-DATE
+> Task :expo:processDebugManifest UP-TO-DATE
+> Task :expo-asset:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-asset:processDebugManifest UP-TO-DATE
+> Task :expo-blur:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-blur:processDebugManifest UP-TO-DATE
+> Task :expo-constants:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-constants:processDebugManifest UP-TO-DATE
+> Task :expo-file-system:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-file-system:processDebugManifest UP-TO-DATE
+> Task :expo-font:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-font:processDebugManifest UP-TO-DATE
+> Task :expo-haptics:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-haptics:processDebugManifest UP-TO-DATE
+> Task :expo-keep-awake:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-keep-awake:processDebugManifest UP-TO-DATE
+> Task :expo-linking:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-linking:processDebugManifest UP-TO-DATE
+> Task :expo-modules-core:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-modules-core:processDebugManifest UP-TO-DATE
+> Task :expo-settings:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-settings:processDebugManifest UP-TO-DATE
+> Task :expo-splash-screen:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-splash-screen:processDebugManifest UP-TO-DATE
+> Task :expo-system-ui:extractDeepLinksDebug UP-TO-DATE
+> Task :expo-system-ui:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-webview:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :expo:compileDebugLibraryResources UP-TO-DATE
+> Task :expo:parseDebugLocalResources UP-TO-DATE
+> Task :expo:generateDebugRFile UP-TO-DATE
+> Task :expo-asset:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-asset:parseDebugLocalResources UP-TO-DATE
+> Task :expo-asset:generateDebugRFile UP-TO-DATE
+> Task :expo-blur:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-blur:parseDebugLocalResources UP-TO-DATE
+> Task :expo-blur:generateDebugRFile UP-TO-DATE
+> Task :expo-constants:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-constants:parseDebugLocalResources UP-TO-DATE
+> Task :expo-constants:generateDebugRFile UP-TO-DATE
+> Task :expo-file-system:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-file-system:parseDebugLocalResources UP-TO-DATE
+> Task :expo-file-system:generateDebugRFile UP-TO-DATE
+> Task :expo-font:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-font:parseDebugLocalResources UP-TO-DATE
+> Task :expo-font:generateDebugRFile UP-TO-DATE
+> Task :expo-haptics:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-haptics:parseDebugLocalResources UP-TO-DATE
+> Task :expo-haptics:generateDebugRFile UP-TO-DATE
+> Task :expo-keep-awake:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-keep-awake:parseDebugLocalResources UP-TO-DATE
+> Task :expo-keep-awake:generateDebugRFile UP-TO-DATE
+> Task :expo-linking:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-linking:parseDebugLocalResources UP-TO-DATE
+> Task :expo-linking:generateDebugRFile UP-TO-DATE
+> Task :expo-modules-core:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-modules-core:parseDebugLocalResources UP-TO-DATE
+> Task :expo-modules-core:generateDebugRFile UP-TO-DATE
+> Task :expo-settings:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-settings:parseDebugLocalResources UP-TO-DATE
+> Task :expo-settings:generateDebugRFile UP-TO-DATE
+> Task :expo-splash-screen:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-splash-screen:parseDebugLocalResources UP-TO-DATE
+> Task :expo-splash-screen:generateDebugRFile UP-TO-DATE
+> Task :expo-system-ui:compileDebugLibraryResources UP-TO-DATE
+> Task :expo-system-ui:parseDebugLocalResources UP-TO-DATE
+> Task :expo-system-ui:generateDebugRFile UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :react-native-webview:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-webview:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-webview:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :expo:checkKotlinGradlePluginConfigurationErrors
+> Task :expo:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-asset:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-asset:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-modules-core:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-modules-core:compileDebugKotlin UP-TO-DATE
+> Task :expo-modules-core:javaPreCompileDebug UP-TO-DATE
+> Task :expo-modules-core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-modules-core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-asset:compileDebugKotlin UP-TO-DATE
+> Task :expo-asset:javaPreCompileDebug UP-TO-DATE
+> Task :expo-asset:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-asset:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-blur:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-blur:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-blur:compileDebugKotlin UP-TO-DATE
+> Task :expo-blur:javaPreCompileDebug UP-TO-DATE
+> Task :expo-blur:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-blur:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-constants:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-constants:compileDebugKotlin UP-TO-DATE
+> Task :expo-constants:javaPreCompileDebug UP-TO-DATE
+> Task :expo-constants:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-constants:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-file-system:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-file-system:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-file-system:compileDebugKotlin UP-TO-DATE
+> Task :expo-file-system:javaPreCompileDebug UP-TO-DATE
+> Task :expo-file-system:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-file-system:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-font:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-font:compileDebugKotlin UP-TO-DATE
+> Task :expo-font:javaPreCompileDebug UP-TO-DATE
+> Task :expo-font:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-font:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-haptics:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-haptics:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-haptics:compileDebugKotlin UP-TO-DATE
+> Task :expo-haptics:javaPreCompileDebug UP-TO-DATE
+> Task :expo-haptics:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-haptics:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-keep-awake:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-keep-awake:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-keep-awake:compileDebugKotlin UP-TO-DATE
+> Task :expo-keep-awake:javaPreCompileDebug UP-TO-DATE
+> Task :expo-keep-awake:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-keep-awake:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-linking:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-linking:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-linking:compileDebugKotlin UP-TO-DATE
+> Task :expo-linking:javaPreCompileDebug UP-TO-DATE
+> Task :expo-linking:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-linking:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-settings:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-settings:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-settings:javaPreCompileDebug UP-TO-DATE
+> Task :expo-splash-screen:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-splash-screen:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-splash-screen:compileDebugKotlin UP-TO-DATE
+> Task :expo-splash-screen:javaPreCompileDebug UP-TO-DATE
+> Task :expo-splash-screen:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-splash-screen:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo-system-ui:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-system-ui:generateDebugBuildConfig UP-TO-DATE
+> Task :expo-system-ui:compileDebugKotlin UP-TO-DATE
+> Task :expo-system-ui:javaPreCompileDebug UP-TO-DATE
+> Task :expo-system-ui:compileDebugJavaWithJavac UP-TO-DATE
+> Task :expo-system-ui:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :expo:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-gesture-handler:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :react-native-reanimated:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugKotlin UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-screens:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-screens:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-webview:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-webview:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-webview:compileDebugKotlin UP-TO-DATE
+> Task :react-native-webview:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-webview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugShaders UP-TO-DATE
+> Task :expo:compileDebugShaders NO-SOURCE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:packageDebugAssets UP-TO-DATE
+> Task :expo-asset:mergeDebugShaders UP-TO-DATE
+> Task :expo-asset:compileDebugShaders NO-SOURCE
+> Task :expo-asset:generateDebugAssets UP-TO-DATE
+> Task :expo-asset:packageDebugAssets UP-TO-DATE
+> Task :expo-blur:mergeDebugShaders UP-TO-DATE
+> Task :expo-blur:compileDebugShaders NO-SOURCE
+> Task :expo-blur:generateDebugAssets UP-TO-DATE
+> Task :expo-blur:packageDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugShaders UP-TO-DATE
+> Task :expo-constants:compileDebugShaders NO-SOURCE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:packageDebugAssets UP-TO-DATE
+> Task :expo-file-system:mergeDebugShaders UP-TO-DATE
+> Task :expo-file-system:compileDebugShaders NO-SOURCE
+> Task :expo-file-system:generateDebugAssets UP-TO-DATE
+> Task :expo-file-system:packageDebugAssets UP-TO-DATE
+> Task :expo-font:mergeDebugShaders UP-TO-DATE
+> Task :expo-font:compileDebugShaders NO-SOURCE
+> Task :expo-font:generateDebugAssets UP-TO-DATE
+> Task :expo-font:packageDebugAssets UP-TO-DATE
+> Task :expo-haptics:mergeDebugShaders UP-TO-DATE
+> Task :expo-haptics:compileDebugShaders NO-SOURCE
+> Task :expo-haptics:generateDebugAssets UP-TO-DATE
+> Task :expo-haptics:packageDebugAssets UP-TO-DATE
+> Task :expo-keep-awake:mergeDebugShaders UP-TO-DATE
+> Task :expo-keep-awake:compileDebugShaders NO-SOURCE
+> Task :expo-keep-awake:generateDebugAssets UP-TO-DATE
+> Task :expo-keep-awake:packageDebugAssets UP-TO-DATE
+> Task :expo-linking:mergeDebugShaders UP-TO-DATE
+> Task :expo-linking:compileDebugShaders NO-SOURCE
+> Task :expo-linking:generateDebugAssets UP-TO-DATE
+> Task :expo-linking:packageDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugShaders UP-TO-DATE
+> Task :expo-modules-core:compileDebugShaders NO-SOURCE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:packageDebugAssets UP-TO-DATE
+> Task :expo-settings:mergeDebugShaders UP-TO-DATE
+> Task :expo-settings:compileDebugShaders NO-SOURCE
+> Task :expo-settings:generateDebugAssets UP-TO-DATE
+> Task :expo-settings:packageDebugAssets UP-TO-DATE
+> Task :expo-splash-screen:mergeDebugShaders UP-TO-DATE
+> Task :expo-splash-screen:compileDebugShaders NO-SOURCE
+> Task :expo-splash-screen:generateDebugAssets UP-TO-DATE
+> Task :expo-splash-screen:packageDebugAssets UP-TO-DATE
+> Task :expo-system-ui:mergeDebugShaders UP-TO-DATE
+> Task :expo-system-ui:compileDebugShaders NO-SOURCE
+> Task :expo-system-ui:generateDebugAssets UP-TO-DATE
+> Task :expo-system-ui:packageDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugShaders UP-TO-DATE
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:packageDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugShaders UP-TO-DATE
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:packageDebugAssets UP-TO-DATE
+> Task :react-native-webview:mergeDebugShaders UP-TO-DATE
+> Task :react-native-webview:compileDebugShaders NO-SOURCE
+> Task :react-native-webview:generateDebugAssets UP-TO-DATE
+> Task :react-native-webview:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-asset:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-blur:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-constants:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-file-system:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-font:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-haptics:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-keep-awake:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-linking:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-splash-screen:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-system-ui:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :expo-modules-core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :expo-asset:processDebugJavaRes UP-TO-DATE
+> Task :expo-blur:processDebugJavaRes UP-TO-DATE
+> Task :expo-constants:processDebugJavaRes UP-TO-DATE
+> Task :expo-file-system:processDebugJavaRes UP-TO-DATE
+> Task :expo-font:processDebugJavaRes UP-TO-DATE
+> Task :expo-haptics:processDebugJavaRes UP-TO-DATE
+> Task :expo-keep-awake:processDebugJavaRes UP-TO-DATE
+> Task :expo-linking:processDebugJavaRes UP-TO-DATE
+> Task :expo-modules-core:processDebugJavaRes UP-TO-DATE
+> Task :expo-splash-screen:processDebugJavaRes
+> Task :expo-system-ui:processDebugJavaRes
+> Task :react-native-gesture-handler:processDebugJavaRes
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes
+> Task :react-native-screens:processDebugJavaRes
+> Task :react-native-webview:processDebugJavaRes
+> Task :app:checkDebugDuplicateClasses
+> Task :expo-asset:bundleLibRuntimeToDirDebug
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug
+> Task :expo-blur:bundleLibRuntimeToDirDebug
+> Task :react-native-webview:bundleLibRuntimeToDirDebug
+> Task :react-native-reanimated:bundleLibRuntimeToDirDebug
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirDebug
+> Task :react-native-screens:bundleLibRuntimeToDirDebug
+> Task :app:mergeExtDexDebug FROM-CACHE
+> Task :expo-constants:bundleLibRuntimeToDirDebug
+> Task :expo-font:bundleLibRuntimeToDirDebug
+> Task :expo-haptics:bundleLibRuntimeToDirDebug
+> Task :expo-keep-awake:bundleLibRuntimeToDirDebug
+> Task :expo-linking:bundleLibRuntimeToDirDebug
+> Task :expo-splash-screen:bundleLibRuntimeToDirDebug
+> Task :expo-system-ui:bundleLibRuntimeToDirDebug
+
+> Task :expo-settings:compileDebugKotlin FAILED
+
+> Task :expo-file-system:bundleLibRuntimeToDirDebug
+> Task :expo-modules-core:bundleLibRuntimeToDirDebug
+> Task :react-native-reanimated:configureCMakeDebug[arm64-v8a]
+398 actionable tasks: 46 executed, 1 from cache, 351 up-to-date
