@@ -1,4 +1,4 @@
-# HMAC-SHA256 Encryption Module for React Native Expo
+# Encryption Module for React Native Expo
 
 This is a custom encryption module designed for React Native Expo projects. It provides an easy way to encrypt strings using the HMAC-SHA256 algorithm and returns a hexadecimal string as the output.
 
